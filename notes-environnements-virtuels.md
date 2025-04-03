@@ -22,12 +22,20 @@ Cela crée un répertoire "env" à l'emplacement où la commande a été entrée
 
 **Activer l'environnement virtuel :**
 
-Sur Windows :
+Sur Windows (invite de commandes) :
 ```bash
 <environment_name>\Scripts\activate.bat
 
 # Exemple
 env\Scripts\activate.bat
+```
+
+Sur Windows (PowerShell) :
+```bash
+<environment_name>\Scripts\Activate.ps1
+
+# Exemple
+env\Scripts\Activate.ps1
 ```
 
 Sur Linux :
