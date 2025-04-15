@@ -38,12 +38,23 @@ Sur Windows (PowerShell) :
 env\Scripts\Activate.ps1
 ```
 
+Sur Windows (Git Bash / WSL) :
+```bash
+<environment_name>/Scripts/activate
+
+# Exemple
+source env/Scripts/activate
+```
+
 Sur Linux :
 ```bash
 source <environment_name>/bin/activate
 
 # Exemple
 source env/bin/activate
+
+# Ou avec l'alias plus commun :
+. env/bin/activate
 ```
 
 Attention : il faut exécuter cette commande à la racine du répertoire de l'environnement. 
